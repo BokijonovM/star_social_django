@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+django = "*"
+django-bootstrap3 = "*"
+misaka = "*"
+django-braces = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
+dj-database-url = "*"
+whitenoise = "*"
+
+[requires]
+python_version = "3.9"
